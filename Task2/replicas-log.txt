@@ -1,0 +1,23 @@
+# Locust: 300 пользователей, 30 пользователей/с, 5 минут, GET /
+# Время / HPA (цель память, мин, макс, реплик) / Deployment
+15:53:43 Deployment/scaletestapp memory: 10%/80% 1 10 1 10m scaletestapp 1/1 1
+15:53:58 Deployment/scaletestapp memory: 10%/80% 1 10 1 10m scaletestapp 1/1 1
+15:54:13 Deployment/scaletestapp memory: 10%/80% 1 10 1 11m scaletestapp 1/1 1
+15:54:29 Deployment/scaletestapp memory: 79%/80% 1 10 1 11m scaletestapp 1/1 1
+15:54:44 Deployment/scaletestapp memory: 79%/80% 1 10 1 11m scaletestapp 1/1 1
+15:54:59 Deployment/scaletestapp memory: 79%/80% 1 10 1 11m scaletestapp 1/1 1
+15:55:15 Deployment/scaletestapp memory: 79%/80% 1 10 1 12m scaletestapp 1/1 1
+15:55:30 Deployment/scaletestapp memory: 88%/80% 1 10 1 12m scaletestapp 1/1 1
+15:55:46 Deployment/scaletestapp memory: 88%/80% 1 10 1 12m scaletestapp 1/1 1
+15:56:01 Deployment/scaletestapp memory: 88%/80% 1 10 1 12m scaletestapp 1/1 1
+15:56:16 Deployment/scaletestapp memory: 88%/80% 1 10 1 13m scaletestapp 1/1 1
+15:56:32 Deployment/scaletestapp memory: 94%/80% 1 10 1 13m scaletestapp 2/2 2
+15:56:47 Deployment/scaletestapp memory: 94%/80% 1 10 2 13m scaletestapp 2/2 2
+15:57:02 Deployment/scaletestapp memory: 94%/80% 1 10 2 13m scaletestapp 2/2 2
+15:57:18 Deployment/scaletestapp memory: 94%/80% 1 10 2 14m scaletestapp 2/2 2
+15:57:33 Deployment/scaletestapp memory: 52%/80% 1 10 2 14m scaletestapp 2/2 2
+15:57:49 Deployment/scaletestapp memory: 52%/80% 1 10 2 14m scaletestapp 2/2 2
+15:58:04 Deployment/scaletestapp memory: 52%/80% 1 10 2 14m scaletestapp 2/2 2
+15:58:19 Deployment/scaletestapp memory: 52%/80% 1 10 2 15m scaletestapp 2/2 2
+15:58:35 Deployment/scaletestapp memory: 55%/80% 1 10 2 15m scaletestapp 2/2 2
+15:58:50 Deployment/scaletestapp memory: 55%/80% 1 10 2 15m scaletestapp 2/2 2
