@@ -1,0 +1,9 @@
+Locust 2.47.0, режим --headless, 300 пользователей, 30 пользователей в секунду, 5 минут
+Целевой адрес: адрес из minikube service scaletestapp --url
+
+Type     Name   # reqs   # fails |  Avg   Min   Max   Med |  req/s   failures/s
+GET      /       28984    0(0.00%) |   60     3   226    64 |  96.85         0.00
+Aggregated       28984    0(0.00%) |   60     3   226    64 |  96.85         0.00
+
+kubectl top pod во время предыдущего прогона (requests.memory 20Mi, один под):
+scaletestapp-68d46ddc9f-4jr27   31m   14Mi   (14Mi из 20Mi = 72%, HPA не сработал)
