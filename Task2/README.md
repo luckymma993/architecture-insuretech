@@ -9,6 +9,7 @@
 | `hpa.yaml` | HPA: масштабирование по памяти, цель 80%, от 1 до 10 реплик |
 | `locustfile.py` | Сценарий нагрузки: пользователи ходят на `GET /` с паузой 1–5 с |
 | `replicas-log.txt` | Состояние HPA и Deployment каждые 15 секунд во время теста |
+| `locust-summary.txt` | Итоговая таблица Locust и замер `kubectl top pod` при запросе 20Mi |
 | `hpa-describe.txt` | Вывод `kubectl describe hpa` с событием `SuccessfulRescale` и список подов |
 
 ## Запуск
