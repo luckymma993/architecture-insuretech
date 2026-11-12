@@ -1,7 +1,5 @@
 type Query {
   client(id: ID!): Client
-  documents(clientId: ID!): [Document!]!
-  relatives(clientId: ID!): [Relative!]!
 }
 
 type Client {
